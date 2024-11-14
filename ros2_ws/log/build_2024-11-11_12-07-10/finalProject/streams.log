@@ -1,0 +1,41 @@
+[0.422s] Invoking command in '/home/ubuntu/TurtleBot_Room/ros2_ws/src/finalProject': PYTHONPATH=/home/ubuntu/TurtleBot_Room/ros2_ws/build/finalProject/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/TurtleBot_Room/ros2_ws/install/finalProject/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/finalProject build --build-base /home/ubuntu/TurtleBot_Room/ros2_ws/build/finalProject/build install --record /home/ubuntu/TurtleBot_Room/ros2_ws/build/finalProject/install.log --install-scripts $base/lib/finalProject --single-version-externally-managed install_data
+[0.543s] running egg_info
+[0.544s] creating ../../build/finalProject/finalProject.egg-info
+[0.544s] writing ../../build/finalProject/finalProject.egg-info/PKG-INFO
+[0.544s] writing dependency_links to ../../build/finalProject/finalProject.egg-info/dependency_links.txt
+[0.544s] writing entry points to ../../build/finalProject/finalProject.egg-info/entry_points.txt
+[0.544s] writing requirements to ../../build/finalProject/finalProject.egg-info/requires.txt
+[0.544s] writing top-level names to ../../build/finalProject/finalProject.egg-info/top_level.txt
+[0.545s] writing manifest file '../../build/finalProject/finalProject.egg-info/SOURCES.txt'
+[0.565s] reading manifest file '../../build/finalProject/finalProject.egg-info/SOURCES.txt'
+[0.565s] writing manifest file '../../build/finalProject/finalProject.egg-info/SOURCES.txt'
+[0.565s] running build
+[0.565s] running build_py
+[0.565s] creating /home/ubuntu/TurtleBot_Room/ros2_ws/build/finalProject/build
+[0.565s] creating /home/ubuntu/TurtleBot_Room/ros2_ws/build/finalProject/build/lib
+[0.565s] creating /home/ubuntu/TurtleBot_Room/ros2_ws/build/finalProject/build/lib/finalProject
+[0.565s] copying finalProject/__init__.py -> /home/ubuntu/TurtleBot_Room/ros2_ws/build/finalProject/build/lib/finalProject
+[0.565s] copying finalProject/move_rectangular.py -> /home/ubuntu/TurtleBot_Room/ros2_ws/build/finalProject/build/lib/finalProject
+[0.565s] copying finalProject/move_circle.py -> /home/ubuntu/TurtleBot_Room/ros2_ws/build/finalProject/build/lib/finalProject
+[0.565s] running install
+[0.566s] running install_lib
+[0.566s] creating /home/ubuntu/TurtleBot_Room/ros2_ws/install/finalProject/lib/python3.8/site-packages/finalProject
+[0.566s] copying /home/ubuntu/TurtleBot_Room/ros2_ws/build/finalProject/build/lib/finalProject/__init__.py -> /home/ubuntu/TurtleBot_Room/ros2_ws/install/finalProject/lib/python3.8/site-packages/finalProject
+[0.566s] copying /home/ubuntu/TurtleBot_Room/ros2_ws/build/finalProject/build/lib/finalProject/move_rectangular.py -> /home/ubuntu/TurtleBot_Room/ros2_ws/install/finalProject/lib/python3.8/site-packages/finalProject
+[0.567s] copying /home/ubuntu/TurtleBot_Room/ros2_ws/build/finalProject/build/lib/finalProject/move_circle.py -> /home/ubuntu/TurtleBot_Room/ros2_ws/install/finalProject/lib/python3.8/site-packages/finalProject
+[0.567s] byte-compiling /home/ubuntu/TurtleBot_Room/ros2_ws/install/finalProject/lib/python3.8/site-packages/finalProject/__init__.py to __init__.cpython-38.pyc
+[0.568s] byte-compiling /home/ubuntu/TurtleBot_Room/ros2_ws/install/finalProject/lib/python3.8/site-packages/finalProject/move_rectangular.py to move_rectangular.cpython-38.pyc
+[0.568s] byte-compiling /home/ubuntu/TurtleBot_Room/ros2_ws/install/finalProject/lib/python3.8/site-packages/finalProject/move_circle.py to move_circle.cpython-38.pyc
+[0.569s] running install_data
+[0.569s] creating /home/ubuntu/TurtleBot_Room/ros2_ws/install/finalProject/share/ament_index
+[0.569s] creating /home/ubuntu/TurtleBot_Room/ros2_ws/install/finalProject/share/ament_index/resource_index
+[0.569s] creating /home/ubuntu/TurtleBot_Room/ros2_ws/install/finalProject/share/ament_index/resource_index/packages
+[0.569s] copying resource/finalProject -> /home/ubuntu/TurtleBot_Room/ros2_ws/install/finalProject/share/ament_index/resource_index/packages
+[0.569s] copying package.xml -> /home/ubuntu/TurtleBot_Room/ros2_ws/install/finalProject/share/finalProject
+[0.569s] running install_egg_info
+[0.570s] Copying ../../build/finalProject/finalProject.egg-info to /home/ubuntu/TurtleBot_Room/ros2_ws/install/finalProject/lib/python3.8/site-packages/finalProject-0.0.0-py3.8.egg-info
+[0.570s] running install_scripts
+[0.582s] Installing move_circle script to /home/ubuntu/TurtleBot_Room/ros2_ws/install/finalProject/lib/finalProject
+[0.582s] Installing move_rectangle script to /home/ubuntu/TurtleBot_Room/ros2_ws/install/finalProject/lib/finalProject
+[0.582s] writing list of installed files to '/home/ubuntu/TurtleBot_Room/ros2_ws/build/finalProject/install.log'
+[0.600s] Invoked command in '/home/ubuntu/TurtleBot_Room/ros2_ws/src/finalProject' returned '0': PYTHONPATH=/home/ubuntu/TurtleBot_Room/ros2_ws/build/finalProject/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/TurtleBot_Room/ros2_ws/install/finalProject/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/finalProject build --build-base /home/ubuntu/TurtleBot_Room/ros2_ws/build/finalProject/build install --record /home/ubuntu/TurtleBot_Room/ros2_ws/build/finalProject/install.log --install-scripts $base/lib/finalProject --single-version-externally-managed install_data

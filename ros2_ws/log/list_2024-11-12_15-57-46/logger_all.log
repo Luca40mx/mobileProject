@@ -1,0 +1,56 @@
+[1.133s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/ubuntu/TurtleBot_Room/ros2_ws']
+[1.133s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/ubuntu/TurtleBot_Room/ros2_ws'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7ff2a283a7f0>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7ff2a283a7f0>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff2a271e220>)
+[2.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.652s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/TurtleBot_Room/ros2_ws'
+[2.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[2.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws) by extension 'ignore'
+[2.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws) by extension 'ignore_ament_install'
+[2.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws) by extensions ['colcon_pkg']
+[2.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws) by extension 'colcon_pkg'
+[2.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws) by extensions ['colcon_meta']
+[2.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws) by extension 'colcon_meta'
+[2.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws) by extensions ['ros']
+[2.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws) by extension 'ros'
+[2.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws) by extensions ['cmake', 'python']
+[2.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws) by extension 'cmake'
+[2.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws) by extension 'python'
+[2.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws) by extensions ['python_setup_py']
+[2.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws) by extension 'python_setup_py'
+[2.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[2.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/build) by extension 'ignore'
+[2.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/build) ignored
+[2.868s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[2.868s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/install) by extension 'ignore'
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/install) ignored
+[2.872s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[2.872s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/log) by extension 'ignore'
+[2.872s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/log) ignored
+[2.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[2.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/src) by extension 'ignore'
+[2.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/src) by extension 'ignore_ament_install'
+[2.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/src) by extensions ['colcon_pkg']
+[2.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/src) by extension 'colcon_pkg'
+[2.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/src) by extensions ['colcon_meta']
+[2.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/src) by extension 'colcon_meta'
+[2.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/src) by extensions ['ros']
+[2.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/src) by extension 'ros'
+[2.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/src) by extensions ['cmake', 'python']
+[2.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/src) by extension 'cmake'
+[2.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/src) by extension 'python'
+[2.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/src) by extensions ['python_setup_py']
+[2.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/src) by extension 'python_setup_py'
+[2.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/src/finalProject) by extensions ['ignore', 'ignore_ament_install']
+[2.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/src/finalProject) by extension 'ignore'
+[2.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/src/finalProject) by extension 'ignore_ament_install'
+[2.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/src/finalProject) by extensions ['colcon_pkg']
+[2.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/src/finalProject) by extension 'colcon_pkg'
+[2.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/src/finalProject) by extensions ['colcon_meta']
+[2.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/src/finalProject) by extension 'colcon_meta'
+[2.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/src/finalProject) by extensions ['ros']
+[2.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/TurtleBot_Room/ros2_ws/src/finalProject) by extension 'ros'
+[2.943s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/TurtleBot_Room/ros2_ws/src/finalProject' with type 'ros.ament_python' and name 'finalProject'
+[2.943s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
