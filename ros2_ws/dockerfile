@@ -1,0 +1,29 @@
+FROM osrf/ros:foxy-desktop
+SHELL ["/bin/bash", "-c"]
+
+# Ethernet STM32 nucleo connection
+EXPOSE  6000
+
+# ROS2 domain_id 0 ports interval
+EXPOSE 7400-7431
+EXPOSE 11811/udp
+
+RUN sudo apt-get update && \
+    sudo apt-get install -y ros-foxy-rmw-cyclonedds-cpp pip
+RUN pip install opencv-python
+
+# ROS2 setup
+RUN export ROS_DOMAIN_ID=0 
+RUN export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp 
+RUN rosdep update
+RUN source /opt/ros/$ROS_DISTRO/setup.bash
+
+RUN printf '\n/startup.sh\n' > ~/.bashrc
+RUN printf '\nsource /workspace/install/setup.bash\n' > ~/.bashrc
+
+COPY ./startup.sh /startup.sh
+
+WORKDIR /workspace
+
+# # inject the ROS2 built package setup
+

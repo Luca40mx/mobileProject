@@ -1,5 +1,0 @@
-[console_scripts]
-move_circle = finalProject.move_circle:main
-move_rectangle = finalProject.move_rectangular:main
-movement = finalProject.movementHardcoded:main
-
