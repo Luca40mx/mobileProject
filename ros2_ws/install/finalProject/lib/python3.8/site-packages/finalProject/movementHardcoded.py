@@ -11,7 +11,7 @@ class CircleMover(Node):
     def __init__(self):
         super().__init__('circle_mover')
         self.get_logger().info("CircleMover Node started!")
-        self.publisher = self.create_publisher(Twist, '/cmd_vel_1', 10)
+        self.publisher = self.create_publisher(Twist, '/cmdvvel_obstacle1', 10)
         timer_period = 0.1
         self.timer = self.create_timer(timer_period, self.move_in_circle)
         self.radius = 0.5  # Radius
@@ -35,7 +35,7 @@ class RectangularPath(Node):
     def __init__(self):
         super().__init__('rectangular_path')
         self.get_logger().info("RectangularPath Node started!")
-        self.cmd_vel_publisher = self.create_publisher(Twist, '/cmd_vel_2', 10)
+        self.cmd_vel_publisher = self.create_publisher(Twist, '/cmdvvel_obstacle2', 10)
         time.sleep(1)
 
         # rectangular movement

@@ -1,4 +1,4 @@
 import sys
 if sys.prefix == '/usr':
     sys.real_prefix = sys.prefix
-    sys.prefix = sys.exec_prefix = '/home/ubuntu/TurtleBot_Room/ros2_ws/install/finalProject'
+    sys.prefix = sys.exec_prefix = '/home/ubuntu/mobileProject/ros2_ws/install/finalProject'

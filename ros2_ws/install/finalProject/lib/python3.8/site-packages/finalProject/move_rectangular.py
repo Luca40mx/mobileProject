@@ -12,7 +12,7 @@ class RectangularPath(Node):
         super().__init__('rectangular_path')
         self.get_logger().info("Node started!")
         # Publish on topic cmd_vel_2
-        self.cmd_vel_publisher = self.create_publisher(Twist, 'cmd_vel_2', 10)
+        self.cmd_vel_publisher = self.create_publisher(Twist, 'cmdvvel_obstacle2', 10)
         time.sleep(1)
         
         # Parameters

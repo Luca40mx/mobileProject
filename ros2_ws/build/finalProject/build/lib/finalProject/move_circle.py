@@ -9,7 +9,7 @@ class CircleMover(Node):
     def __init__(self):
         super().__init__('circle_mover')
         self.get_logger().info("Node started!")
-        self.publisher = self.create_publisher(Twist, '/cmd_vel_1', 10)
+        self.publisher = self.create_publisher(Twist, '/cmdvvel_obstacle1', 10)
         timer_period = 0.1
         self.timer = self.create_timer(timer_period, self.move_in_circle)
         self.radius = 0.5 # radius
