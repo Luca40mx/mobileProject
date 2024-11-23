@@ -6,6 +6,7 @@
     - [Topics](#topics)
     - [Example: publish commands to move an obstacle](#example-publish-commands-to-move-an-obstacle)
     - [Example: run the obstacle detection/avoidance algorithm on the robot](#example-run-the-obstacle-detectionavoidance-algorithm-on-the-robot)
+- [Utils](#utils)
 
 ## Unity environment
 
@@ -38,4 +39,10 @@ ros2 run mob_rob_obstacle_avoidance move_obstacle --ros-args -p trajectory:="rec
 
 ```sh
 ros2 run mob_rob_obstacle_avoidance control_robot
+```
+
+# Utils
+
+```sh
+ros2 topic pub /topic std_msgs/String 'data: Hello World' -t 1000
 ```
